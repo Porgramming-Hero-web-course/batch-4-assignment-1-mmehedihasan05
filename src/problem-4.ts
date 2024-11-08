@@ -15,7 +15,7 @@ type Shape = Circle | Rectangle;
 const calculateShapeArea = (value: Shape): number => {
     if (value.shape === "circle") {
         let circleArea = Math.PI * value.radius * value.radius;
-        return circleArea;
+        return parseFloat(circleArea.toFixed(2));
     } else if (value.shape === "rectangle") {
         let rectangleArea = value.width * value.height;
         return rectangleArea;

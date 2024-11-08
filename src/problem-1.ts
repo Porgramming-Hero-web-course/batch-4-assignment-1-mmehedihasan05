@@ -1,7 +1,9 @@
-const sumArray = (givenNumbers: number[]): number => {
+const sumArray = (givenNumbers: number[]): void => {
     let total = 0;
     givenNumbers.forEach((element) => {
         total += element;
     });
-    return total;
+
+    console.log(total);
+    // return total;
 };
