@@ -1,10 +1,10 @@
-const removeDuplicates = (givenNumbers: number[]): void => {
+const removeDuplicates = (givenNumbers: number[]): number[] => {
     let uniqueArray: number[] = [];
     givenNumbers.forEach((element) => {
         if (!uniqueArray.includes(element)) {
             uniqueArray.push(element);
         }
     });
-    console.log(uniqueArray);
-    // return uniqueArray;
+    // console.log(uniqueArray);
+    return uniqueArray;
 };

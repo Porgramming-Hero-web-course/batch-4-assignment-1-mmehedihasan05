@@ -1,4 +1,4 @@
-const countWordOccurrences = (sentence: string, word: string): void => {
+const countWordOccurrences = (sentence: string, word: string): number => {
     const sentence_lowerCase = sentence.toLowerCase();
     const word_lowerCase = word.toLowerCase();
 
@@ -12,6 +12,6 @@ const countWordOccurrences = (sentence: string, word: string): void => {
         }
     });
 
-    console.log(counter);
-    // return counter;
+    // console.log(counter);
+    return counter;
 };

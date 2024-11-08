@@ -11,7 +11,7 @@ class Car {
 
     getCarAge() {
         const currYear = new Date().getFullYear();
-        console.log(currYear - this.year);
-        // return currYear - this.year;
+        // console.log(currYear - this.year);
+        return currYear - this.year;
     }
 }
