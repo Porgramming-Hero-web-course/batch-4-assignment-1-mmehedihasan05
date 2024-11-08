@@ -6,7 +6,7 @@ const countWordOccurrences = (sentence: string, word: string): number => {
 
     let counter: number = 0;
 
-    splitted_sentence.forEach((element) => {
+    splitted_sentence.forEach((element: string) => {
         if (element === word_lowerCase) {
             counter++;
         }

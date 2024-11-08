@@ -1,5 +1,5 @@
 const sumArray = (givenNumbers: number[]): number => {
-    let total = 0;
+    let total: number = 0;
     givenNumbers.forEach((element) => {
         total += element;
     });
